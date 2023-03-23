@@ -9,12 +9,32 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
-#barra{
+.barra{
+    display: table;
     margin-top: 11px;
+    border-collapse: separate;
+    border-spacing: 10px;
 }
 #formulario{
     border-top: 10px solid grey;
 }
 .input{
-    margin-top: 10px;
 }
+.barra div {
+    display: table-row;
+}
+.barra input {
+    display: table-cell;
+}
+.barra label {
+    display: table-cell;
+}
+.cor{
+    background-color: lightgray;
+}
+.buttons {
+    margin-top: 20px;
+}
+
+
+
